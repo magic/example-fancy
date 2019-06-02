@@ -2,6 +2,9 @@ export default {
   '.Header': {
     zIndex: 1,
     position: 'relative',
+    width: '90%',
+    display: 'block',
+    margin: '0 auto',
   },
 
   '.Wrapper': {

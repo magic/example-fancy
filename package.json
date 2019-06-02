@@ -1,0 +1,47 @@
+{
+  "name": "@magic/example-fancy",
+  "version": "0.23.5",
+  "author": "Wizards & Witches",
+  "homepage": "https://magic.github.io/example-fancy",
+  "license": "AGPL-3.0",
+  "description": "@magic example page.",
+  "main": "src/index.mjs",
+  "module": "src/index.mjs",
+  "type": "module",
+  "engines": {
+    "node": ">=12.2.0"
+  },
+  "scripts": {
+    "start": "t -p",
+    "format": "f -w --exclude docs",
+    "test": "t --exclude docs",
+    "build": "NODE_ENV=production magic build",
+    "prod": "NODE_ENV=production magic build serve",
+    "dev": "magic dev"
+  },
+  "files": [
+    "src"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/magic/example-fancy.git"
+  },
+  "bugs": {
+    "url": "https://github.com/magic/example-fancy/issues"
+  },
+  "devDependencies": {
+    "@magic-modules/hero": "github:magic-modules/hero",
+    "@magic/core": "github:magic/core",
+    "@magic/test": "0.1.9"
+  },
+  "keywords": [
+    "magic",
+    "example"
+  ],
+  "contributors": [
+    {
+      "name": "jascha ehrenreich",
+      "github": "jaeh"
+    }
+  ]
+}

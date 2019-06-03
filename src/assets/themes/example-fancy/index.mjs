@@ -1,26 +1,27 @@
 export default {
   '.Header': {
-    zIndex: 1,
-    position: 'relative',
-    width: '90%',
     display: 'block',
-    margin: '0 auto',
+    left: '5%',
+    position: 'absolute',
+    top: 0,
+    width: '90%',
+    zIndex: 1,
   },
 
   '.Wrapper': {
+    margin: 0,
     maxWidth: '100vw',
     width: 'auto',
-    margin: 0,
   },
 
   '.Hero': {
-    position: 'inherit',
     fontSize: '2em',
+    position: 'inherit',
 
     img: {
+      left: 0,
       position: 'absolute',
       top: 0,
-      left: 0,
     },
     h1: {
       fontSize: '2em',
@@ -29,8 +30,8 @@ export default {
   },
 
   a: {
-    textDecoration: 'none',
     color: 'blue',
+    textDecoration: 'none',
 
     '&:hover': {
       color: 'orange',
@@ -38,8 +39,8 @@ export default {
   },
 
   button: {
-    padding: '.3em',
-    margin: '.3em',
     fontSize: '1.2em',
+    margin: '.3em',
+    padding: '.3em',
   },
 }

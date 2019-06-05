@@ -1,6 +1,6 @@
 export const View = state => [
   Hero({ state, src: '/img/hero.jpg' }),
-  div({ class: 'About Section' }, [
+  section({ id: 'about', class: 'About' }, [
     h2('About Page on front page'),
     Accordion({
       state,
@@ -54,7 +54,7 @@ export const state = {
 }
 
 export const style = {
-  '.Section': {
+  'section': {
     minHeight: '100vh',
     width: '100%',
     padding: '5%',

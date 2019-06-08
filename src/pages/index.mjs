@@ -54,7 +54,7 @@ export const state = {
 }
 
 export const style = {
-  'section': {
+  section: {
     minHeight: '100vh',
     width: '100%',
     padding: '5%',

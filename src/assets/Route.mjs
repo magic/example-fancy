@@ -1,8 +1,9 @@
 export const View = ({ page, state }) => [
   Header(state),
   div({ class: 'Page' }, page),
-  Footer(state,
-    div({ class: 'Menus'}, [
+  Footer(
+    state,
+    div({ class: 'Menus' }, [
       div({ class: 'Child Info' }, [
         h2('@magic'),
         p('isomorphic web app generator.'),
@@ -11,14 +12,14 @@ export const View = ({ page, state }) => [
         p('deduplicates css selectors.'),
         p('works without javascript.'),
       ]),
-      div({ class: 'Child'}, [
+      div({ class: 'Child' }, [
         h2('Magic github organizations'),
         Menu({
           items: [
-            { text: '@magic', to: 'https://magic.github.io/'},
-            { text: '@magic-modules', to: 'https://magic-modules.github.io/'},
-            { text: '@magic-themes', to: 'https://magic-themes.github.io/'},
-            { text: '@magic-libraries', to: 'https://magic-libraries.github.io/'},
+            { text: '@magic', to: 'https://magic.github.io/' },
+            { text: '@magic-modules', to: 'https://magic-modules.github.io/' },
+            { text: '@magic-themes', to: 'https://magic-themes.github.io/' },
+            { text: '@magic-libraries', to: 'https://magic-libraries.github.io/' },
           ],
           state,
         }),
@@ -39,7 +40,7 @@ export const View = ({ page, state }) => [
   ),
 ]
 
-export const style = (vars = {}) =>  ({
+export const style = (vars = {}) => ({
   '.Route': {},
   '.Footer': {
     backgroundColor: vars.colors.gray[900],
@@ -57,7 +58,6 @@ export const style = (vars = {}) =>  ({
     '.Container': {
       margin: '0 auto',
       width: '80%',
-      display: 'inline-block',
     },
 
     '.Info': {

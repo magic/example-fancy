@@ -1,11 +1,23 @@
 export default {
   '.Header': {
     display: 'block',
-    left: '5%',
-    position: 'absolute',
+    left: '0',
+    position: 'fixed',
     top: 0,
-    width: '90%',
+    width: '100%',
     zIndex: 1,
+    padding: '0 5%',
+    backgroundColor: 'rgba(0,0,0,0.4)',
+
+    '.Logo': {
+      span: {
+        margin: '0 .2em',
+      },
+    },
+  },
+
+  '.Menu': {
+    margin: '0.5em 0 0',
   },
 
   '.Wrapper': {
@@ -30,7 +42,7 @@ export default {
   },
 
   a: {
-    color: 'blue',
+    color: '#fefefe',
     textDecoration: 'none',
 
     '&:hover': {

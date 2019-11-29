@@ -4,7 +4,6 @@ export const state = {
   menu: [
     { to: '/', text: 'home' },
     { to: '/#about', text: 'about' },
-    { to: '/#contact', text: 'contact' },
   ],
   logo: '/img/logo.png',
   logotext: '@magic',

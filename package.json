@@ -32,12 +32,12 @@
   },
   "dependencies": {
     "@magic-modules/accordion": "0.0.2",
-    "@magic-modules/gdpr": "0.0.13",
+    "@magic-modules/gdpr": "0.0.14",
     "@magic-modules/hero": "0.0.2",
-    "@magic/core": "0.0.19"
+    "@magic/core": "0.0.21"
   },
   "devDependencies": {
-    "@magic/test": "0.1.32"
+    "@magic/test": "0.1.33"
   },
   "keywords": [
     "magic",

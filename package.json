@@ -34,10 +34,10 @@
     "@magic-modules/accordion": "0.0.2",
     "@magic-modules/gdpr": "0.0.14",
     "@magic-modules/hero": "0.0.2",
-    "@magic/core": "0.0.21"
+    "@magic/core": "0.0.27"
   },
   "devDependencies": {
-    "@magic/test": "0.1.33"
+    "@magic/test": "0.1.35"
   },
   "keywords": [
     "magic",

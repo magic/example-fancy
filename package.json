@@ -31,7 +31,7 @@
     "url": "https://github.com/magic/example-fancy/issues"
   },
   "dependencies": {
-    "@magic-modules/accordion": "0.0.2",
+    "@magic-modules/accordion": "0.0.3",
     "@magic-modules/gdpr": "0.0.14",
     "@magic-modules/hero": "0.0.2",
     "@magic/core": "0.0.30"
